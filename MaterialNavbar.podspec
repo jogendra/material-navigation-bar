@@ -8,5 +8,6 @@ Pod::Spec.new do |s|
     s.author           = { 'Jogendra Kumar' => 'jogendra.iitbhu@gmail.com' }
     s.source           = { :git => 'https://github.com/jogendra/material-navigation-bar.git', :tag => s.version.to_s }
     s.ios.deployment_target = '10.0'
+    s.swift_version = '4.2'
     s.source_files = 'Source/*.swift'
 end
