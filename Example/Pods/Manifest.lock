@@ -1,0 +1,16 @@
+PODS:
+  - MaterialNavbar (1.0.0)
+
+DEPENDENCIES:
+  - MaterialNavbar
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MaterialNavbar
+
+SPEC CHECKSUMS:
+  MaterialNavbar: 7a67e329cc3dc5a64f4df309d22222fcbbbf8939
+
+PODFILE CHECKSUM: 7681ee0f57b9ab522159cbf9b785a644f6135862
+
+COCOAPODS: 1.5.3

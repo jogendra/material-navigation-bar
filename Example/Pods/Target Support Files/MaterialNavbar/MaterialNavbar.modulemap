@@ -1,0 +1,6 @@
+framework module MaterialNavbar {
+  umbrella header "MaterialNavbar-umbrella.h"
+
+  export *
+  module * { export * }
+}

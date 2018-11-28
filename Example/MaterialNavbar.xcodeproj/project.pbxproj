@@ -13,9 +13,11 @@
 		40A0EFD321AD3E45004C3F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40A0EFD221AD3E45004C3F2B /* Assets.xcassets */; };
 		40A0EFD621AD3E45004C3F2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A0EFD421AD3E45004C3F2B /* LaunchScreen.storyboard */; };
 		40A0EFDE21AD4018004C3F2B /* MaterialNavbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A0EFDD21AD4018004C3F2B /* MaterialNavbar.swift */; };
+		56249AD663C13D858B176097 /* Pods_MaterialNavbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D4EB0DAA2BE8E8C3B8C5FA /* Pods_MaterialNavbar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2008E49D23AD7610D0E070E8 /* Pods-MaterialNavbar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialNavbar.release.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialNavbar/Pods-MaterialNavbar.release.xcconfig"; sourceTree = "<group>"; };
 		40A0EFC821AD3E44004C3F2B /* MaterialNavbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialNavbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40A0EFCB21AD3E44004C3F2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40A0EFCD21AD3E44004C3F2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		40A0EFD521AD3E45004C3F2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40A0EFD721AD3E45004C3F2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40A0EFDD21AD4018004C3F2B /* MaterialNavbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterialNavbar.swift; sourceTree = "<group>"; };
+		42EA9630BC2BAA38CF4CF442 /* Pods-MaterialNavbar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialNavbar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MaterialNavbar/Pods-MaterialNavbar.debug.xcconfig"; sourceTree = "<group>"; };
+		99D4EB0DAA2BE8E8C3B8C5FA /* Pods_MaterialNavbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MaterialNavbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56249AD663C13D858B176097 /* Pods_MaterialNavbar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				40A0EFCA21AD3E44004C3F2B /* MaterialNavbar */,
 				40A0EFC921AD3E44004C3F2B /* Products */,
+				BF08601F01A3170E60362586 /* Pods */,
+				B34D764AFA54DD4870DCE53C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = MaterialNavbar;
 			sourceTree = "<group>";
 		};
+		B34D764AFA54DD4870DCE53C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99D4EB0DAA2BE8E8C3B8C5FA /* Pods_MaterialNavbar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF08601F01A3170E60362586 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42EA9630BC2BAA38CF4CF442 /* Pods-MaterialNavbar.debug.xcconfig */,
+				2008E49D23AD7610D0E070E8 /* Pods-MaterialNavbar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40A0EFDA21AD3E45004C3F2B /* Build configuration list for PBXNativeTarget "MaterialNavbar" */;
 			buildPhases = (
+				DC5366EC21EEE6F3521EB243 /* [CP] Check Pods Manifest.lock */,
 				40A0EFC421AD3E44004C3F2B /* Sources */,
 				40A0EFC521AD3E44004C3F2B /* Frameworks */,
 				40A0EFC621AD3E44004C3F2B /* Resources */,
+				18624301D76D1E30B3A7D625 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,45 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18624301D76D1E30B3A7D625 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MaterialNavbar/Pods-MaterialNavbar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MaterialNavbar/MaterialNavbar.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialNavbar.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MaterialNavbar/Pods-MaterialNavbar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC5366EC21EEE6F3521EB243 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaterialNavbar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		40A0EFC421AD3E44004C3F2B /* Sources */ = {
@@ -286,15 +351,13 @@
 		};
 		40A0EFDB21AD3E45004C3F2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42EA9630BC2BAA38CF4CF442 /* Pods-MaterialNavbar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
 				INFOPLIST_FILE = MaterialNavbar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jogendra.MaterialNavbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -304,15 +367,13 @@
 		};
 		40A0EFDC21AD3E45004C3F2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2008E49D23AD7610D0E070E8 /* Pods-MaterialNavbar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
 				INFOPLIST_FILE = MaterialNavbar/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jogendra.MaterialNavbar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
