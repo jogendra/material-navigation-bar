@@ -5,6 +5,8 @@
 
 Custom UINavigationBar with Google Material style for iOS
 
+<img src="/Static/material_navbar.gif">
+
 [![Build Status](https://travis-ci.org/jogendra/material-navigation-bar.svg?branch=master)](https://travis-ci.org/jogendra/material-navigation-bar)
 [![Version](https://img.shields.io/cocoapods/v/MaterialNavbar.svg?style=flat)](https://cocoapods.org/pods/MaterialNavbar)
 [![License](https://img.shields.io/cocoapods/l/MaterialNavbar.svg?style=flat)](https://cocoapods.org/pods/MaterialNavbar)
@@ -46,6 +48,20 @@ pod 'MaterialNavbar'
 
 #### Manual Installation
 Just drag the `MaterialNavbar.swift` files into your project.
+
+## Usage
+MaterialNavbar is a subclass of `UINavigationBar`, so you use it as usually. For init `MaterialNavbar` in a `UINavigationController` follow the example bellow:
+```
+var navigationController = UINavigationController(navigationBarClass: MaterialNavbar.self, toolbarClass: nil)
+navigationController.viewControllers = [ViewController()]
+```
+#### Theme
+To use a theme:
+```
+MaterialNavbar.changeColorNavigationBar(ThemeColor.Red)
+```
+
+Inspired by: RRNavigationBar
 
 ## Author
 
