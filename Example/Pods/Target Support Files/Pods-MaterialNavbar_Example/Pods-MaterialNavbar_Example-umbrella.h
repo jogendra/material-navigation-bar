@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_MaterialNavbarVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_MaterialNavbarVersionString[];
+FOUNDATION_EXPORT double Pods_MaterialNavbar_ExampleVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_MaterialNavbar_ExampleVersionString[];
 

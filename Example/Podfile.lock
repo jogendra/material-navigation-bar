@@ -1,16 +1,16 @@
 PODS:
-  - MaterialNavbar (1.0.0)
+  - MaterialNavbar (0.1.0)
 
 DEPENDENCIES:
-  - MaterialNavbar
+  - MaterialNavbar (from `../`)
 
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - MaterialNavbar
+EXTERNAL SOURCES:
+  MaterialNavbar:
+    :path: "../"
 
 SPEC CHECKSUMS:
-  MaterialNavbar: 7a67e329cc3dc5a64f4df309d22222fcbbbf8939
+  MaterialNavbar: 206693445f1762de41303fa669517e80893bf3f2
 
-PODFILE CHECKSUM: 7681ee0f57b9ab522159cbf9b785a644f6135862
+PODFILE CHECKSUM: d69b2a71406aba083a66f883edef48b43d2092c2
 
 COCOAPODS: 1.5.3
